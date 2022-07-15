@@ -1,11 +1,11 @@
-package hardcoder.dev.shiraseru_toasts_core.toaster.builtIn
+package hardcoder.dev.shiraseru_samples.toaster.builtIn
 
 import android.graphics.Color
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import by.kirich1409.viewbindingdelegate.viewBinding
-import hardcoder.dev.shiraseru_toasts_core.R
-import hardcoder.dev.shiraseru_toasts_core.databinding.ActivityToasterBuiltInDslBinding
+import hardcoder.dev.shiraseru_samples.R
+import hardcoder.dev.shiraseru_samples.databinding.ActivityToasterBuiltInDslBinding
 import hardcoder.dev.shiraseru_core.mappers.IconGravity
 import hardcoder.dev.shiraseru_toasts_built_in.config.BuiltInToasterState
 import hardcoder.dev.shiraseru_toasts_built_in_dsl.builtInToaster

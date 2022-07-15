@@ -8,6 +8,7 @@ android {
 
     defaultConfig {
         applicationId "hardcoder.dev.toaster"
+        namespace = "hardcoder.dev.shiraseru_samples"
         minSdk 21
         targetSdk 32
         versionCode 1

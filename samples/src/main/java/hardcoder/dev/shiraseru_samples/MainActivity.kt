@@ -1,22 +1,18 @@
-package hardcoder.dev.shiraseru_toasts_core
+package hardcoder.dev.shiraseru_samples
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import by.kirich1409.viewbindingdelegate.viewBinding
-import hardcoder.dev.shiraseru_toasts_core.config.*
-import hardcoder.dev.shiraseru_toasts_core.databinding.ActivityMainBinding
-import hardcoder.dev.shiraseru_toasts_core.snacker.builtIn.SnackerBuiltInActivity
-import hardcoder.dev.shiraseru_toasts_core.snacker.builtIn.SnackerBuiltInDSLActivity
-import hardcoder.dev.shiraseru_toasts_core.snacker.core.SnackerCoreActivity
-import hardcoder.dev.shiraseru_toasts_core.snacker.core.SnackerCoreDSLActivity
-import hardcoder.dev.shiraseru_toasts_core.toaster.builtIn.ToasterBuiltInActivity
-import hardcoder.dev.shiraseru_toasts_core.toaster.builtIn.ToasterBuiltInDSLActivity
-import hardcoder.dev.shiraseru_toasts_core.toaster.core.ToasterCoreActivity
-import hardcoder.dev.shiraseru_toasts_core.toaster.core.ToasterCoreDSLActivity
-import hardcoder.dev.shiraseru_snackbars_dsl.*
-import hardcoder.dev.shiraseru_toasts_built_in.config.*
-import hardcoder.dev.shiraseru_toasts_dsl.*
+import hardcoder.dev.shiraseru_samples.databinding.ActivityMainBinding
+import hardcoder.dev.shiraseru_samples.snacker.builtIn.SnackerBuiltInActivity
+import hardcoder.dev.shiraseru_samples.snacker.builtIn.SnackerBuiltInDSLActivity
+import hardcoder.dev.shiraseru_samples.snacker.core.SnackerCoreActivity
+import hardcoder.dev.shiraseru_samples.snacker.core.SnackerCoreDSLActivity
+import hardcoder.dev.shiraseru_samples.toaster.builtIn.ToasterBuiltInActivity
+import hardcoder.dev.shiraseru_samples.toaster.builtIn.ToasterBuiltInDSLActivity
+import hardcoder.dev.shiraseru_samples.toaster.core.ToasterCoreActivity
+import hardcoder.dev.shiraseru_samples.toaster.core.ToasterCoreDSLActivity
 
 class MainActivity : AppCompatActivity() {
 

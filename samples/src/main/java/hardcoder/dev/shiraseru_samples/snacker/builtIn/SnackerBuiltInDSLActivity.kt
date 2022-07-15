@@ -1,13 +1,13 @@
-package hardcoder.dev.shiraseru_toasts_core.snacker.builtIn
+package hardcoder.dev.shiraseru_samples.snacker.builtIn
 
 import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import by.kirich1409.viewbindingdelegate.viewBinding
-import hardcoder.dev.shiraseru_toasts_core.R
-import hardcoder.dev.shiraseru_toasts_core.databinding.ActivitySnackerBuiltInDslBinding
 import hardcoder.dev.shiraseru_core.mappers.IconGravity
-import hardcoder.dev.shiraseru_snackbars_built_in.config.*
+import hardcoder.dev.shiraseru_samples.R
+import hardcoder.dev.shiraseru_samples.databinding.ActivitySnackerBuiltInDslBinding
+import hardcoder.dev.shiraseru_snackbars_built_in.config.BuiltInSnackerState
 import hardcoder.dev.shiraseru_snackbars_built_in_dsl.builtInSnacker
 import hardcoder.dev.shiraseru_snackbars_core.SnackerDuration
 

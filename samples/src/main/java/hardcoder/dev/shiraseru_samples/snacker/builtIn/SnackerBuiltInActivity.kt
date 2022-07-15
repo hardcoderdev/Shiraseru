@@ -1,12 +1,12 @@
-package hardcoder.dev.shiraseru_toasts_core.snacker.builtIn
+package hardcoder.dev.shiraseru_samples.snacker.builtIn
 
 import android.graphics.Color
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import by.kirich1409.viewbindingdelegate.viewBinding
-import hardcoder.dev.shiraseru_toasts_core.R
-import hardcoder.dev.shiraseru_toasts_core.databinding.ActivitySnackerBuiltInBinding
 import hardcoder.dev.shiraseru_core.mappers.IconGravity
+import hardcoder.dev.shiraseru_samples.R
+import hardcoder.dev.shiraseru_samples.databinding.ActivitySnackerBuiltInBinding
 import hardcoder.dev.shiraseru_snackbars_built_in.config.*
 import hardcoder.dev.shiraseru_snackbars_built_in.extensions.builtInSnacker
 

@@ -1,17 +1,17 @@
-package hardcoder.dev.shiraseru_toasts_core.toaster.core
+package hardcoder.dev.shiraseru_samples.toaster.core
 
 import android.graphics.Color
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.res.ResourcesCompat
 import by.kirich1409.viewbindingdelegate.viewBinding
-import hardcoder.dev.shiraseru_toasts_core.R
-import hardcoder.dev.shiraseru_toasts_core.ToasterDuration
-import hardcoder.dev.shiraseru_toasts_core.config.*
-import hardcoder.dev.shiraseru_toasts_core.databinding.ActivityToasterCoreBinding
-import hardcoder.dev.shiraseru_toasts_core.extensions.toaster
 import hardcoder.dev.shiraseru_core.mappers.IconGravity
 import hardcoder.dev.shiraseru_core.mappers.ToasterGravity
+import hardcoder.dev.shiraseru_samples.R
+import hardcoder.dev.shiraseru_samples.databinding.ActivityToasterCoreBinding
+import hardcoder.dev.shiraseru_toasts_core.ToasterDuration
+import hardcoder.dev.shiraseru_toasts_core.config.*
+import hardcoder.dev.shiraseru_toasts_core.extensions.toaster
 
 class ToasterCoreActivity : AppCompatActivity() {
 

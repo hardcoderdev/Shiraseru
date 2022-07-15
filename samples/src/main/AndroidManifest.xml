@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="hardcoder.dev.shiraseru_toasts_core">
+    package="hardcoder.dev.shiraseru_samples">
 
     <application
         android:allowBackup="true"
@@ -14,31 +14,31 @@
         android:theme="@style/Theme.Toaster"
         tools:targetApi="31">
         <activity
-            android:name="hardcoder.dev.shiraseru_toasts_core.snacker.core.SnackerCoreActivity"
+            android:name=".snacker.core.SnackerCoreActivity"
             android:exported="false" />
         <activity
-            android:name="hardcoder.dev.shiraseru_toasts_core.snacker.core.SnackerCoreDSLActivity"
+            android:name=".snacker.core.SnackerCoreDSLActivity"
             android:exported="false" />
         <activity
-            android:name="hardcoder.dev.shiraseru_toasts_core.snacker.builtIn.SnackerBuiltInActivity"
+            android:name=".snacker.builtIn.SnackerBuiltInActivity"
             android:exported="false" />
         <activity
-            android:name="hardcoder.dev.shiraseru_toasts_core.snacker.builtIn.SnackerBuiltInDSLActivity"
+            android:name=".snacker.builtIn.SnackerBuiltInDSLActivity"
             android:exported="false" />
         <activity
-            android:name="hardcoder.dev.shiraseru_toasts_core.toaster.core.ToasterCoreActivity"
+            android:name=".toaster.core.ToasterCoreActivity"
             android:exported="false" />
         <activity
-            android:name="hardcoder.dev.shiraseru_toasts_core.toaster.core.ToasterCoreDSLActivity"
+            android:name=".toaster.core.ToasterCoreDSLActivity"
             android:exported="false" />
         <activity
-            android:name="hardcoder.dev.shiraseru_toasts_core.toaster.builtIn.ToasterBuiltInActivity"
+            android:name=".toaster.builtIn.ToasterBuiltInActivity"
             android:exported="false" />
         <activity
-            android:name="hardcoder.dev.shiraseru_toasts_core.toaster.builtIn.ToasterBuiltInDSLActivity"
+            android:name=".toaster.builtIn.ToasterBuiltInDSLActivity"
             android:exported="false" />
         <activity
-            android:name="hardcoder.dev.shiraseru_toasts_core.MainActivity"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
