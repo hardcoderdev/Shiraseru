@@ -1,15 +1,15 @@
 @file:Suppress("DEPRECATION")
 
-package hardcoder.dev.shiraseru
+package hardcoder.dev.shiraseru_toasts_core
 
 import android.content.Context
 import android.os.Build
 import android.view.LayoutInflater
 import android.widget.Toast
-import hardcoder.dev.shiraseru.config.ToasterConfig
-import hardcoder.dev.shiraseru.databinding.ToasterLayoutBinding
 import hardcoder.dev.shiraseru_core.mappers.IconGravity
 import hardcoder.dev.shiraseru_core.mappers.ToastGravityMapper
+import hardcoder.dev.shiraseru_toasts_core.config.ToasterConfig
+import hardcoder.dev.shiraseru_toasts_core.databinding.ToasterLayoutBinding
 
 class Toaster(private val context: Context) : Toast(context) {
 
@@ -23,17 +23,16 @@ class Toaster(private val context: Context) : Toast(context) {
         _binding = ToasterLayoutBinding.inflate(LayoutInflater.from(context))
     }
 
-    fun setConfig(toasterConfig: ToasterConfig) =
-        with(toasterConfig) {
-            _toasterConfig = ToasterConfig(
-                shapeConfig,
-                gravityConfig,
-                typographyConfig,
-                iconConfig,
-                showDuration,
-                isNeedToShowIcon,
-            )
-        }
+    fun setConfig(toasterConfig: ToasterConfig) = with(toasterConfig) {
+        _toasterConfig = ToasterConfig(
+            shapeConfig,
+            gravityConfig,
+            typographyConfig,
+            iconConfig,
+            showDuration,
+            isNeedToShowIcon,
+        )
+    }
 
     fun explode(msg: String) = with(binding) {
         val textColor = toasterConfig.typographyConfig.textColor.value

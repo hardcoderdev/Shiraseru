@@ -1,6 +1,6 @@
 package hardcoder.dev.shiraseru_toasts_built_in.config
 
-import hardcoder.dev.shiraseru.ToasterDuration
+import hardcoder.dev.shiraseru_toasts_core.ToasterDuration
 import hardcoder.dev.shiraseru_core.mappers.IconGravity
 import hardcoder.dev.shiraseru_resources.R
 

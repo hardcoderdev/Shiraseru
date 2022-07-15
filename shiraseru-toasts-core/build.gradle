@@ -10,6 +10,7 @@ android {
     defaultConfig {
         minSdk 21
         targetSdk 32
+        namespace = "hardcoder.dev.shiraseru_toasts_core"
         consumerProguardFiles "consumer-rules.pro"
     }
 

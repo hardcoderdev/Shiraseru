@@ -10,8 +10,7 @@ android {
     defaultConfig {
         minSdk 21
         targetSdk 32
-
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        namespace = "hardcoder.dev.shiraseru_toasts_built_in"
         consumerProguardFiles "consumer-rules.pro"
     }
 

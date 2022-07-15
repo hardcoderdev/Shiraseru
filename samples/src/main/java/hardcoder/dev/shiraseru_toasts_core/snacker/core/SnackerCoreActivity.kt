@@ -1,4 +1,4 @@
-package hardcoder.dev.shiraseru.snacker.core
+package hardcoder.dev.shiraseru_toasts_core.snacker.core
 
 import android.graphics.Color
 import android.graphics.Typeface
@@ -8,8 +8,8 @@ import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.res.ResourcesCompat
 import by.kirich1409.viewbindingdelegate.viewBinding
-import hardcoder.dev.shiraseru.R
-import hardcoder.dev.shiraseru.databinding.ActivitySnackerCoreBinding
+import hardcoder.dev.shiraseru_toasts_core.R
+import hardcoder.dev.shiraseru_toasts_core.databinding.ActivitySnackerCoreBinding
 import hardcoder.dev.shiraseru_core.mappers.IconGravity
 import hardcoder.dev.shiraseru_core.mappers.ToasterGravity
 import hardcoder.dev.shiraseru_snackbars_core.SnackerDuration

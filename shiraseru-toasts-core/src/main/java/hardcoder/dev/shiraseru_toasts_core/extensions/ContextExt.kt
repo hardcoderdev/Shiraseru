@@ -1,8 +1,8 @@
-package hardcoder.dev.shiraseru.extensions
+package hardcoder.dev.shiraseru_toasts_core.extensions
 
 import android.content.Context
-import hardcoder.dev.shiraseru.Toaster
-import hardcoder.dev.shiraseru.config.ToasterConfig
+import hardcoder.dev.shiraseru_toasts_core.Toaster
+import hardcoder.dev.shiraseru_toasts_core.config.ToasterConfig
 
 fun Context.toaster(config: ToasterConfig, message: String) {
     Toaster(this).apply {

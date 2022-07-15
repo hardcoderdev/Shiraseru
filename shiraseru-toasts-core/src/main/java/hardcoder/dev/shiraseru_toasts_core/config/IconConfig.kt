@@ -1,12 +1,12 @@
-package hardcoder.dev.shiraseru.config
+package hardcoder.dev.shiraseru_toasts_core.config
 
+import android.graphics.Color
 import android.graphics.drawable.Drawable
-import hardcoder.dev.shiraseru_resources.R
 
 data class IconConfig(
     val drawable: Icon = Icon(null),
-    val tint: IconTint = IconTint(R.color.white),
-    val padding: IconPadding = IconPadding(R.dimen.default_icon_padding)
+    val tint: IconTint = IconTint(Color.WHITE),
+    val padding: IconPadding = IconPadding(16)
 )
 
 data class Icon(val value: Drawable?)

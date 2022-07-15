@@ -1,9 +1,8 @@
 package hardcoder.dev.shiraseru_toasts_dsl.config
 
 import android.content.Context
-import hardcoder.dev.shiraseru.ToasterDuration
-import hardcoder.dev.shiraseru.config.*
-import hardcoder.dev.shiraseru_core.mappers.IconGravity
+import hardcoder.dev.shiraseru_toasts_core.ToasterDuration
+import hardcoder.dev.shiraseru_toasts_core.config.*
 
 class ToasterConfigDslBuilder(private val context: Context) {
 

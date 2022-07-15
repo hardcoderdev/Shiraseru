@@ -1,6 +1,6 @@
-package hardcoder.dev.shiraseru.config
+package hardcoder.dev.shiraseru_toasts_core.config
 
-import hardcoder.dev.shiraseru.ToasterDuration
+import hardcoder.dev.shiraseru_toasts_core.ToasterDuration
 
 data class ToasterConfig(
     val shapeConfig: ShapeConfig,

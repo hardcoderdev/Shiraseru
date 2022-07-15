@@ -3,7 +3,7 @@ package hardcoder.dev.shiraseru_toasts_built_in_dsl.config
 import android.content.Context
 import androidx.annotation.ColorRes
 import androidx.core.content.res.ResourcesCompat
-import hardcoder.dev.shiraseru.ToasterDuration
+import hardcoder.dev.shiraseru_toasts_core.ToasterDuration
 import hardcoder.dev.shiraseru_core.mappers.IconGravity
 import hardcoder.dev.shiraseru_resources.R
 import hardcoder.dev.shiraseru_toasts_built_in.config.*

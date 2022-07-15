@@ -1,11 +1,11 @@
-package hardcoder.dev.shiraseru.toaster.core
+package hardcoder.dev.shiraseru_toasts_core.toaster.core
 
 import android.graphics.Typeface
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import by.kirich1409.viewbindingdelegate.viewBinding
-import hardcoder.dev.shiraseru.R
-import hardcoder.dev.shiraseru.databinding.ActivityToasterCoreDslBinding
+import hardcoder.dev.shiraseru_toasts_core.R
+import hardcoder.dev.shiraseru_toasts_core.databinding.ActivityToasterCoreDslBinding
 import hardcoder.dev.shiraseru_core.mappers.IconGravity
 import hardcoder.dev.shiraseru_core.mappers.ToasterGravity
 import hardcoder.dev.shiraseru_toasts_dsl.toaster

@@ -5,9 +5,9 @@ import android.graphics.drawable.Drawable
 import androidx.annotation.ColorRes
 import androidx.annotation.DrawableRes
 import androidx.core.content.res.ResourcesCompat
-import hardcoder.dev.shiraseru.config.Background
-import hardcoder.dev.shiraseru.config.BackgroundTint
-import hardcoder.dev.shiraseru.config.ShapeConfig
+import hardcoder.dev.shiraseru_toasts_core.config.Background
+import hardcoder.dev.shiraseru_toasts_core.config.BackgroundTint
+import hardcoder.dev.shiraseru_toasts_core.config.ShapeConfig
 import hardcoder.dev.shiraseru_resources.R
 
 class ShapeConfigDslBuilder(private val context: Context) {

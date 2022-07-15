@@ -3,7 +3,7 @@
 package hardcoder.dev.shiraseru_toasts_dsl
 
 import android.content.Context
-import hardcoder.dev.shiraseru.Toaster
+import hardcoder.dev.shiraseru_toasts_core.Toaster
 import hardcoder.dev.shiraseru_toasts_dsl.config.*
 
 /** DSL FUNCTIONS FOR BUILD CUSTOMIZABLE DSL TOASTS **/

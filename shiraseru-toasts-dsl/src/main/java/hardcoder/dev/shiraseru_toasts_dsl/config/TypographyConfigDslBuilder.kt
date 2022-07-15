@@ -5,9 +5,9 @@ import android.graphics.Typeface
 import androidx.annotation.ColorRes
 import androidx.annotation.DimenRes
 import androidx.core.content.res.ResourcesCompat
-import hardcoder.dev.shiraseru.config.TextColor
-import hardcoder.dev.shiraseru.config.TextSize
-import hardcoder.dev.shiraseru.config.TypographyConfig
+import hardcoder.dev.shiraseru_toasts_core.config.TextColor
+import hardcoder.dev.shiraseru_toasts_core.config.TextSize
+import hardcoder.dev.shiraseru_toasts_core.config.TypographyConfig
 import hardcoder.dev.shiraseru_core.mappers.ToasterGravity
 import hardcoder.dev.shiraseru_resources.R
 

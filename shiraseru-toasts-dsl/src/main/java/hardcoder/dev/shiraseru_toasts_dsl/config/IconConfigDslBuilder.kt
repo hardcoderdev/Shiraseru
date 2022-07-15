@@ -6,10 +6,10 @@ import androidx.annotation.ColorRes
 import androidx.annotation.DimenRes
 import androidx.annotation.DrawableRes
 import androidx.core.content.res.ResourcesCompat
-import hardcoder.dev.shiraseru.config.Icon
-import hardcoder.dev.shiraseru.config.IconConfig
-import hardcoder.dev.shiraseru.config.IconPadding
-import hardcoder.dev.shiraseru.config.IconTint
+import hardcoder.dev.shiraseru_toasts_core.config.Icon
+import hardcoder.dev.shiraseru_toasts_core.config.IconConfig
+import hardcoder.dev.shiraseru_toasts_core.config.IconPadding
+import hardcoder.dev.shiraseru_toasts_core.config.IconTint
 import hardcoder.dev.shiraseru_resources.R
 
 class IconConfigDslBuilder(private val context: Context) {

@@ -1,8 +1,8 @@
 package hardcoder.dev.shiraseru_toasts_dsl
 
 import android.content.Context
-import hardcoder.dev.shiraseru.Toaster
-import hardcoder.dev.shiraseru.config.ToasterConfig
+import hardcoder.dev.shiraseru_toasts_core.Toaster
+import hardcoder.dev.shiraseru_toasts_core.config.ToasterConfig
 import hardcoder.dev.shiraseru_core.exceptions.NoMessageSpecifiedException
 import hardcoder.dev.shiraseru_toasts_dsl.config.ToasterConfigDslBuilder
 

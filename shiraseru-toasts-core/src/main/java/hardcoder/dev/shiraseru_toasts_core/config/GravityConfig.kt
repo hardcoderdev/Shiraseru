@@ -1,4 +1,4 @@
-package hardcoder.dev.shiraseru.config
+package hardcoder.dev.shiraseru_toasts_core.config
 
 import hardcoder.dev.shiraseru_core.mappers.IconGravity
 import hardcoder.dev.shiraseru_core.mappers.ToasterGravity
