@@ -1,0 +1,29 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "Shiraseru"
+
+include(":samples")
+include(":shiraseru-core")
+include(":shiraseru-resources")
+
+include(":shiraseru-toasts-core")
+include(":shiraseru-toasts-built-in")
+include(":shiraseru-toasts-dsl")
+include(":shiraseru-toasts-built-in-dsl")
+
+include(":shiraseru-snackbars-core")
+include(":shiraseru-snackbars-built-in")
+include(":shiraseru-snackbars-dsl")
+include(":shiraseru-snackbars-built-in-dsl")

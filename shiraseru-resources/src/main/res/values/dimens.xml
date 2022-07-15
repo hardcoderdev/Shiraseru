@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_icon_padding">16</dimen>
+
+    <dimen name="default_message_text_size">18</dimen>
+    <dimen name="default_action_message_text_size">16</dimen>
+
+    <dimen name="default_small_shape_elevation">8</dimen>
+    <dimen name="default_medium_shape_elevation">16</dimen>
+</resources>

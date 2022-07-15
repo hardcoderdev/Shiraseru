@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Toaster</string>
+    <string name="hello_text">Yo!\nThis library provides the most customizable convenient api (extension function, as well as DSL) for working with toasts and snackbars.</string>
+</resources>

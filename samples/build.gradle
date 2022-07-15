@@ -1,0 +1,58 @@
+plugins {
+    id("com.android.application")
+    id("org.jetbrains.kotlin.android")
+}
+
+android {
+    compileSdk 32
+
+    defaultConfig {
+        applicationId "hardcoder.dev.toaster"
+        minSdk 21
+        targetSdk 32
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro"
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+
+    buildFeatures {
+        viewBinding = true
+    }
+}
+
+dependencies {
+
+    // Default core variant
+    implementation(project(":shiraseru-toasts-core"))
+    implementation(project(":shiraseru-toasts-built-in"))
+    implementation(project(":shiraseru-snackbars-core"))
+    implementation(project(":shiraseru-snackbars-built-in"))
+
+    // Add DSL
+    implementation(project(":shiraseru-toasts-dsl"))
+    implementation(project(":shiraseru-toasts-built-in-dsl"))
+    implementation(project(":shiraseru-snackbars-dsl"))
+    implementation(project(":shiraseru-snackbars-built-in-dsl"))
+
+
+    implementation("androidx.core:core-ktx:1.8.0")
+    implementation("androidx.appcompat:appcompat:1.4.2")
+    implementation("com.google.android.material:material:1.6.1")
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+    implementation("com.github.kirich1409:viewbindingpropertydelegate:1.5.6")
+}

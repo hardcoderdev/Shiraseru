@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/helloTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@drawable/shape_rounded_16"
+        android:backgroundTint="@color/black"
+        android:fontFamily="@font/anonymous_bold"
+        android:padding="16dp"
+        android:text="@string/hello_text"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginVertical="16dp"
+        android:fillViewport="true"
+        android:orientation="vertical"
+        app:layout_constraintBaseline_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/helloTextView"
+        app:layout_constraintStart_toStartOf="@id/helloTextView"
+        app:layout_constraintTop_toBottomOf="@id/helloTextView">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/toastSamplesLabelTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/anonymous_bold"
+                android:text="Toast samples:"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/toastHorizontalDividerView"
+                android:layout_width="0dp"
+                android:layout_height="4dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/shape_rounded_16"
+                android:backgroundTint="#A4A4A4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/toastSamplesLabelTextView" />
+
+
+            <Button
+                android:id="@+id/toastCoreExampleButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/shape_rounded_16"
+                android:backgroundTint="@color/black"
+                android:fontFamily="@font/anonymous_bold"
+                android:gravity="center_vertical"
+                android:paddingStart="32dp"
+                android:text="Toast Core Example"
+                android:drawablePadding="16dp"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/toastHorizontalDividerView"
+                tools:ignore="RtlSymmetry"
+                tools:targetApi="m" />
+
+            <Button
+                android:id="@+id/toastCoreDslExampleButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/shape_rounded_16"
+                android:backgroundTint="@color/black"
+                android:fontFamily="@font/anonymous_bold"
+                android:gravity="center_vertical"
+                android:paddingStart="32dp"
+                android:text="Toast Core DSL Example"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/toastCoreExampleButton"
+                tools:ignore="RtlSymmetry" />
+
+            <Button
+                android:id="@+id/toastBuiltInExampleButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/shape_rounded_16"
+                android:backgroundTint="@color/black"
+                android:fontFamily="@font/anonymous_bold"
+                android:gravity="center_vertical"
+                android:paddingStart="32dp"
+                android:text="Toast Built In Example"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/toastCoreDslExampleButton"
+                tools:ignore="RtlSymmetry" />
+
+            <Button
+                android:id="@+id/toastBuiltInDslExampleButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/shape_rounded_16"
+                android:backgroundTint="@color/black"
+                android:fontFamily="@font/anonymous_bold"
+                android:gravity="center_vertical"
+                android:paddingStart="32dp"
+                android:text="Toast Built In DSL Example"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/toastBuiltInExampleButton"
+                tools:ignore="RtlSymmetry" />
+
+            <TextView
+                android:id="@+id/snackbarSamplesLabelTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/anonymous_bold"
+                android:text="Snackbar samples:"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/toastBuiltInDslExampleButton" />
+
+            <View
+                android:id="@+id/snackbarHorizontalDividerView"
+                android:layout_width="0dp"
+                android:layout_height="4dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/shape_rounded_16"
+                android:backgroundTint="#A4A4A4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/snackbarSamplesLabelTextView" />
+
+            <Button
+                android:id="@+id/snackbarCoreExampleButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/shape_rounded_16"
+                android:backgroundTint="@color/black"
+                android:fontFamily="@font/anonymous_bold"
+                android:gravity="center_vertical"
+                android:paddingStart="32dp"
+                android:text="Snackbar Core Example"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/snackbarHorizontalDividerView"
+                tools:ignore="RtlSymmetry" />
+
+            <Button
+                android:id="@+id/snackbarCoreDslExampleButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/shape_rounded_16"
+                android:backgroundTint="@color/black"
+                android:fontFamily="@font/anonymous_bold"
+                android:gravity="center_vertical"
+                android:paddingStart="32dp"
+                android:text="Snackbar Core DSL Example"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/snackbarCoreExampleButton"
+                tools:ignore="RtlSymmetry" />
+
+            <Button
+                android:id="@+id/snackbarBuiltInExampleButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/shape_rounded_16"
+                android:backgroundTint="@color/black"
+                android:fontFamily="@font/anonymous_bold"
+                android:gravity="center_vertical"
+                android:paddingStart="32dp"
+                android:text="Snackbar Built In Example"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/snackbarCoreDslExampleButton"
+                tools:ignore="RtlSymmetry" />
+
+            <Button
+                android:id="@+id/snackbarBuiltInDslExampleButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/shape_rounded_16"
+                android:backgroundTint="@color/black"
+                android:fontFamily="@font/anonymous_bold"
+                android:gravity="center_vertical"
+                android:paddingStart="32dp"
+                android:text="Snackbar Built In DSL Example"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/snackbarBuiltInExampleButton"
+                tools:ignore="RtlSymmetry" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
