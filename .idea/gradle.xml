@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/samples" />
+            <option value="$PROJECT_DIR$/shiraseru-core" />
+            <option value="$PROJECT_DIR$/shiraseru-resources" />
+            <option value="$PROJECT_DIR$/shiraseru-snackbars-built-in" />
+            <option value="$PROJECT_DIR$/shiraseru-snackbars-built-in-dsl" />
+            <option value="$PROJECT_DIR$/shiraseru-snackbars-core" />
+            <option value="$PROJECT_DIR$/shiraseru-snackbars-dsl" />
+            <option value="$PROJECT_DIR$/shiraseru-toasts-built-in" />
+            <option value="$PROJECT_DIR$/shiraseru-toasts-built-in-dsl" />
+            <option value="$PROJECT_DIR$/shiraseru-toasts-core" />
+            <option value="$PROJECT_DIR$/shiraseru-toasts-dsl" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

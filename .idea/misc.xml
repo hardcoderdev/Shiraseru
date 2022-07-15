@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/79253/AndroidStudioProjects/Shiraseru/app/src/main/res/drawable/shape_16.xml" value="0.3295" />
+        <entry key="..\:/Users/79253/AndroidStudioProjects/Shiraseru/samples/src/main/res/layout-v23/activity_main.xml" value="0.4817708333333333" />
+        <entry key="..\:/Users/79253/AndroidStudioProjects/Shiraseru/samples/src/main/res/layout/activity_main.xml" value="0.4817708333333333" />
+        <entry key="..\:/Users/79253/AndroidStudioProjects/Shiraseru/samples/src/main/res/layout/activity_snacker_built_in.xml" value="0.4817708333333333" />
+        <entry key="..\:/Users/79253/AndroidStudioProjects/Shiraseru/samples/src/main/res/layout/activity_snacker_built_in_dslactivity.xml" value="0.4817708333333333" />
+        <entry key="..\:/Users/79253/AndroidStudioProjects/Shiraseru/samples/src/main/res/layout/activity_snacker_core.xml" value="0.4817708333333333" />
+        <entry key="..\:/Users/79253/AndroidStudioProjects/Shiraseru/samples/src/main/res/layout/activity_snacker_core_dslactivity.xml" value="0.4817708333333333" />
+        <entry key="..\:/Users/79253/AndroidStudioProjects/Shiraseru/samples/src/main/res/layout/activity_toaster_built_in.xml" value="0.4817708333333333" />
+        <entry key="..\:/Users/79253/AndroidStudioProjects/Shiraseru/samples/src/main/res/layout/activity_toaster_built_in_dslactivity.xml" value="0.4817708333333333" />
+        <entry key="..\:/Users/79253/AndroidStudioProjects/Shiraseru/samples/src/main/res/layout/activity_toaster_core.xml" value="0.4817708333333333" />
+        <entry key="..\:/Users/79253/AndroidStudioProjects/Shiraseru/samples/src/main/res/layout/activity_toaster_core_dslactivity.xml" value="0.4817708333333333" />
+        <entry key="..\:/Users/79253/AndroidStudioProjects/Shiraseru/samples/src/main/res/layout/toolbar_example.xml" value="0.3036184210526316" />
+        <entry key="..\:/Users/79253/AndroidStudioProjects/Shiraseru/shiraseru-built-in/src/main/res/drawable/warning_shape.xml" value="0.482" />
+        <entry key="..\:/Users/79253/AndroidStudioProjects/Shiraseru/shiraseru-core/src/main/res/drawable/shape_rounded_16.xml" value="0.481" />
+        <entry key="..\:/Users/79253/AndroidStudioProjects/Shiraseru/shiraseru-resources/src/main/res/drawable/error_shape.xml" value="0.154" />
+        <entry key="..\:/Users/79253/AndroidStudioProjects/Shiraseru/shiraseru-resources/src/main/res/drawable/info_shape.xml" value="0.154" />
+        <entry key="..\:/Users/79253/AndroidStudioProjects/Shiraseru/shiraseru-resources/src/main/res/drawable/shape_empty.xml" value="0.154" />
+        <entry key="..\:/Users/79253/AndroidStudioProjects/Shiraseru/shiraseru-resources/src/main/res/drawable/shape_rounded_16.xml" value="0.4645" />
+        <entry key="..\:/Users/79253/AndroidStudioProjects/Shiraseru/shiraseru-resources/src/main/res/drawable/success_shape.xml" value="0.154" />
+        <entry key="..\:/Users/79253/AndroidStudioProjects/Shiraseru/shiraseru-resources/src/main/res/drawable/warning_shape.xml" value="0.154" />
+        <entry key="..\:/Users/79253/AndroidStudioProjects/Shiraseru/shiraseru-resources/src/main/res/drawable/warning_shape_rounded.xml" value="0.154" />
+        <entry key="..\:/Users/79253/AndroidStudioProjects/Shiraseru/shiraseru-snackbars-core/src/main/res/layout/snacker_layout.xml" value="0.4817708333333333" />
+        <entry key="..\:/Users/79253/AndroidStudioProjects/Toaster/shiraseru-snackbars-core/src/main/res/drawable/error_shape.xml" value="0.482" />
+        <entry key="..\:/Users/79253/AndroidStudioProjects/Toaster/shiraseru-snackbars-core/src/main/res/layout/snacker_layout.xml" value="0.4817708333333333" />
+        <entry key="..\:/Users/79253/AndroidStudioProjects/Toaster/shiraseru-snackbars-core/src/main/res/layout/wd.xml" value="0.4817708333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
