@@ -142,7 +142,7 @@ toaster(
 
 <br>
 
-<img src="https://github.com/hardcoderdev/shiraseru/assets/toaster_core_example.png" data-canonical-src="https://github.com/hardcoderdev/shiraseru/assets/toaster_core_example.png" width="100%" height="60%" />
+<img src="https://github.com/hardcoderdev/shiraseru/blob/master/assets/toaster_core_example.png" data-canonical-src="https://github.com/hardcoderdev/shiraseru/blob/master/assets/toaster_core_example.png" width="100%" height="60%" />
 
 
 
@@ -230,7 +230,7 @@ binding.root.snacker(
 
 <br>
 
-<img src="https://github.com/hardcoderdev/shiraseru/assets/snackbar_core_example.png" data-canonical-src="https://github.com/hardcoderdev/shiraseru/assets/snackbar_core_example.png" width="100%" height="60%" />
+<img src="https://github.com/hardcoderdev/shiraseru/blob/master/assets/snackbar_core_example.png" data-canonical-src="https://github.com/hardcoderdev/shiraseru/blob/master/assets/snackbar_core_example.png" width="100%" height="60%" />
 
 <br>
 
@@ -300,7 +300,7 @@ builtInToaster(
 
 <br>
 
-<img src="https://github.com/hardcoderdev/shiraseru/assets/toast_built_in_example.png" data-canonical-src="https://github.com/hardcoderdev/shiraseru/assets/toast_built_in_example.png" width="100%" height="60%" />
+<img src="https://github.com/hardcoderdev/shiraseru/blob/master/assets/toast_built_in_example.png" data-canonical-src="https://github.com/hardcoderdev/shiraseru/blob/master/assets/toast_built_in_example.png" width="100%" height="60%" />
 
 <br>
 
@@ -339,7 +339,7 @@ root.builtInSnacker(
 
 <br>
 
-<img src="https://github.com/hardcoderdev/shiraseru/assets/snackbar_built_in_example.png" data-canonical-src="https://github.com/hardcoderdev/shiraseru/assets/snackbar_built_in_example.png" width="100%" height="60%" />
+<img src="https://github.com/hardcoderdev/shiraseru/blob/master/assets/snackbar_built_in_example.png" data-canonical-src="https://github.com/hardcoderdev/shiraseru/blob/master/assets/snackbar_built_in_example.png" width="100%" height="60%" />
 
 ## Of the **new** parameters here: **isNeedToShowAction**, which is **responsible** for **hiding or showing** the **action**, and **isFloating** - _if it is set to **true**_, the snackbar will have **margins** from the _bottom, left and right_, if the **isFloating** parameter is set to **false** - the snackbar **will be pressed close to the screen**.
 
@@ -395,7 +395,7 @@ toaster {
 
 <br>
 
-<img src="https://github.com/hardcoderdev/shiraseru/assets/toast_core_dsl_example.png" data-canonical-src="https://github.com/hardcoderdev/shiraseru/assets/toast_core_dsl_example.png" width="100%" height="60%" />
+<img src="https://github.com/hardcoderdev/shiraseru/blob/master/assets/toast_core_dsl_example.png" data-canonical-src="https://github.com/hardcoderdev/shiraseru/blob/master/assets/toast_core_dsl_example.png" width="100%" height="60%" />
 
 
 > ## Everything here is exactly the **same** as in **core toasts**, only in ***DSL style***.
@@ -436,7 +436,7 @@ builtInToaster {
 
 <br>
 
-<img src="https://github.com/hardcoderdev/shiraseru/assets/toast_built_in_dsl_example.png" data-canonical-src="https://github.com/hardcoderdev/shiraseru/assets/toast_built_in_dsl_example.png" width="100%" height="60%" />
+<img src="https://github.com/hardcoderdev/shiraseru/blob/master/assets/toast_built_in_dsl_example.png" data-canonical-src="https://github.com/hardcoderdev/shiraseru/blob/master/assets/toast_built_in_dsl_example.png" width="100%" height="60%" />
 
 # 11. <a name='SnackbarsCoreDSL'></a>**DSL. Snackbars Core**
 
@@ -498,7 +498,7 @@ binding.root.snacker {
 
 <br>
 
-<img src="https://github.com/hardcoderdev/shiraseru/assets/snackbar_core_dsl_example.png" data-canonical-src="https://github.com/hardcoderdev/shiraseru/assets/snackbar_core_dsl_example.png" width="100%" height="60%" />
+<img src="https://github.com/hardcoderdev/shiraseru/blob/master/assets/snackbar_core_dsl_example.png" data-canonical-src="https://github.com/hardcoderdev/shiraseru/blob/master/assets/snackbar_core_dsl_example.png" width="100%" height="60%" />
 
 > ## You can find out this example in **samples**
 
@@ -534,7 +534,7 @@ root.builtInSnacker {
 
 <br>
 
-<img src="https://github.com/hardcoderdev/shiraseru/assets/snackbar_built_in_dsl_example.png" data-canonical-src="https://github.com/hardcoderdev/shiraseru/assets/snackbar_built_in_dsl_example.png" width="100%" height="60%" />
+<img src="https://github.com/hardcoderdev/shiraseru/blob/master/assets/snackbar_built_in_dsl_example.png" data-canonical-src="https://github.com/hardcoderdev/shiraseru/blob/master/assets/snackbar_built_in_dsl_example.png" width="100%" height="60%" />
 
 <br>
 
