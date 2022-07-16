@@ -230,7 +230,7 @@ binding.root.snacker(
 
 <br>
 
-<img src="https://github.com/hardcoderdev/shiraseru/blob/master/assets/snackbar_core_example.png" data-canonical-src="https://github.com/hardcoderdev/shiraseru/blob/master/assets/snackbar_core_example.png" width="100%" height="60%" />
+<img src="https://github.com/hardcoderdev/shiraseru/blob/master/assets/snacker_core_example.png" data-canonical-src="https://github.com/hardcoderdev/shiraseru/blob/master/assets/snacker_core_example.png" width="100%" height="60%" />
 
 <br>
 
